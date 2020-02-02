@@ -14,57 +14,71 @@
 
 
 body{
-    background-color: #EAF1FF;
+    background-color: #EAF1FF; 
+    padding: 0;
 }
 
 .logo{
     width: 200px;
     height: auto;
     margin: 10px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
 }
 
 nav li{
     display: inline;
-    padding: 5px 50px; 
     position: relative;
-    right: 1.5em;
+    right: 1.5em   
 
-        
+    
 }
 
-nav a{
+nav li :hover{
+    background-color: rgb(144, 181, 255);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100px 100px 100px 100px; 
+
+    transition-duration: 800ms;
+    transition-property: background;
+
+
+}
+
+nav li a{
     text-decoration: none;
     text-transform: uppercase;
-    
+    padding: 5px 50px;
     font-size: small;
-    font-family: 'Poppins:900';
+    font-family: 'Poppins:800';
+    font-weight: 600;
     letter-spacing: 1.5px;
-   
 }
 
 
-.navi ul{
-
+nav ul{
     text-align: right; 
     position: relative;
     top: -43px;
 
 }
 
-.navi ul :hover{
-    /* background-color: rgb(174, 201, 255); */
-    font-family: 'Poppins:900';
-    font-weight: bold;
+.login a{
 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins:500';
+    font-weight: bold;
+    
 }
 
 .login{
+
     display: inline;
-    padding: 2px 12px; 
+    padding: 2px 10px 2px 10px; 
     margin-right: 90px;
-    font-family: 'Poppins:900';
-    font-weight: bolder;
+    font-family: 'Poppins';
     font-size: smaller;
 
     border-style: solid;
@@ -72,41 +86,224 @@ nav a{
     color: rgb(0, 0, 0);  
     text-align: center;
 
-    transition-duration: 1000ms;
+    transition-duration: 500ms;
     transition-property: all;
     
 }
 
 .login:hover{
-    
+    width:10px;
+
     border-color: rgb(87, 58, 255);
-    /* background-color: rgb(192, 181, 255); */
-    color: rgb(250, 250, 250);
-    font-size: smaller;
-    padding: 2px 20px; 
-    
+    color: rgb(255, 255, 255);
+    padding: 2px 15px 2px 15px;   
 }
 
+
+
 .menuIcon{
-    width: 20px;
+    width: 39px;
+    padding: 10px;
     height: auto;
     margin: 0;
     position: relative;
-    right: -87em;
-    top: -63px;
-    transition-duration: 1000ms;
+    right: -86em;
+    top: -72.45px;
+
+    transition-duration: 400ms;
     transition-property: all;
 }
 
-.menuIcon :hover{
-    background-color: black;
-    transform: rotate(45deg);
+.menu :hover{
+    background-color:#aec4ff;
+    background-blend-mode: screen;
+    
+    stroke-linecap: round;
+    stroke-width: 5px;
+    color: #EAF1FF;
 }
-
-
 
 nav{
     background-color: rgba(0, 85, 255, 0.15);
-    height: 50px;
+    height: 50px;   
+}
+
+/* end of nav */
+
+
+
+
+
+
+
+
+
+/* App development & Design */
+
+.appdev{
+    margin:95px 0px 0px 95px;
+}
+
+.appdev h1{
+    font-family: 'Poppins:900';
+    font-weight: bolder;
+    font-size: 33.5px;
+    margin: auto;
+}
+
+.appdev p{
+    margin-top: 10px;
+    width: 30em;
+    font-family: 'Poppins';
+    font-weight: 800;
+    opacity: 43%;    
+}
+
+
+.appdevImg{
+    position: relative;
+    top: -154px;
+    left: 30em;
+}
+
+.appdevImg .picApp {
     
+    width: 15em;
+    position: relative;
+    left: 30.5em;
+ 
+}
+
+.appdevImg .recApp {
+    
+    width: 30em;
+    position: relative;
+}
+
+/* End of App development & Design */
+
+
+
+
+
+
+
+
+
+
+/* Web development & Design */
+
+.webdev{
+    margin:95px;
+  
+}
+
+.webdev h1{
+    font-family: 'Poppins:900';
+    font-weight: bolder;
+    font-size: 33.5px;
+    
+    position: relative;
+    top: -312px;
+    left: 21.6em;
+}
+
+.webdev p{
+    margin-top: 10px;
+    width: 30em;
+    font-family: 'Poppins';
+    font-weight: 800;
+    opacity: 43%;   
+
+    position: relative;
+    top: -315px;
+    left: 45.2em;   
+}
+
+.webdevImg{
+    position: relative;
+    top: -148px;
+    left: -15.3em;
+}
+
+.webdevImg .picWeb {
+    width: 15em;
+    position: relative;
+    left: 30.5em;
+ 
+}
+
+.webdevImg .recWeb {   
+    width: 30em;
+    position: relative;
+}
+
+/* End of Web development & Design */
+
+
+
+
+
+
+
+
+
+/* Top Companies */
+
+
+.companies{
+    position: absolute;
+    text-transform: capitalize;
+    bottom: 1em;
+    width: 85em;
+    left:2.6em;
+    padding: 6px;
+
+    background-color: rgb(208, 223, 255);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100px 100px 100px 100px; 
+}
+
+.companies img{
+
+    position: absolute;
+    width: 400px;
+
+    bottom: -2px;
+    left: 30em;
+}
+
+.companies a{
+    text-decoration: none;
+    position: relative;
+    left: 70em;
+    bottom: 9px;
+
+    font-family: 'Poppins:800';
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    color:  #0b0b0b;
+    padding: 5px 25px;
+    border-radius: 100px 100px 100px 100px; 
+}
+
+.companies div :hover{
+    border-color: #0b0b0b;
+    border-style: solid;
+    border-radius: 100px;  
+    text-align: center;
+
+ 
+    transition-duration: 300ms;
+    transition-property: all;
+  
+}
+
+.companies h2{
+    font-family: 'Poppins:100';
+    font-size: medium;
+    color: #0b0b0b;
+    position: relative;
+    bottom: -0.8em;
+    left: 4em;
 }
