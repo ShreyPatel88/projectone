@@ -21,47 +21,52 @@ body{
     width: 200px;
     height: auto;
     margin: 10px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
 }
 
 nav li{
     display: inline;
-    padding: 5px 50px; 
     position: relative;
-    right: 1.5em;
+    right: 1.5em   
+}
 
-        
+nav li :hover{
+    background-color: rgb(174, 201, 255);
+    
+    color: hsl(0, 0%, 100%);
+    /* box-shadow: 1px 1px 0px black; */
+    border-radius: 100px 100px 100px 100px; 
+
+    transition-duration: 500ms;
+    transition-property: all;
+
 }
 
 nav a{
     text-decoration: none;
     text-transform: uppercase;
-    
+    padding: 5px 50px;
     font-size: small;
-    font-family: 'Poppins:900';
+    font-family: 'Poppins';
+    font-weight: bold;
     letter-spacing: 1.5px;
-   
 }
 
 
-.navi ul{
-
+nav ul{
     text-align: right; 
     position: relative;
     top: -43px;
-
 }
 
-.navi ul :hover{
-    /* background-color: rgb(174, 201, 255); */
-    font-family: 'Poppins:900';
-    font-weight: bold;
-
+.login a{
+    padding:2px 15px;
+    
 }
 
 .login{
     display: inline;
-    padding: 2px 12px; 
+    padding: 2px; 
     margin-right: 90px;
     font-family: 'Poppins:900';
     font-weight: bolder;
@@ -80,10 +85,9 @@ nav a{
 .login:hover{
     
     border-color: rgb(87, 58, 255);
-    /* background-color: rgb(192, 181, 255); */
     color: rgb(250, 250, 250);
-    font-size: smaller;
-    padding: 2px 20px; 
+
+    padding: 2px 15px; 
     
 }
 
@@ -98,15 +102,41 @@ nav a{
     transition-property: all;
 }
 
-.menuIcon :hover{
-    background-color: black;
-    transform: rotate(45deg);
-}
-
-
 
 nav{
     background-color: rgba(0, 85, 255, 0.15);
-    height: 50px;
+    height: 50px;   
+}
+
+/* end of nav */
+
+
+
+
+
+
+/* App development & Design */
+
+.appdev h1{
+    font-family: 'Poppins:900';
+    font-weight: bolder;
+    font-size: 34px;
+    margin: 70px 55px ;
+}
+
+.appdev p{
+    margin: -60px 55px;
+    width: 30em;
+
+    font-family: 'Poppins';
+    font-weight: 800;
+    opacity: 43%;
+    
     
 }
+
+.appdevImg{
+    
+    margin: 70px 55px ;
+}
+
