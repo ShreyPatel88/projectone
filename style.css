@@ -31,13 +31,13 @@ nav li{
 }
 
 nav li :hover{
-    background-color: rgb(174, 201, 255);
+    background-color: rgb(144, 181, 255);
     
     color: hsl(0, 0%, 100%);
     /* box-shadow: 1px 1px 0px black; */
     border-radius: 100px 100px 100px 100px; 
 
-    transition-duration: 500ms;
+    transition-duration: 400ms;
     transition-property: all;
 
 }
@@ -91,17 +91,32 @@ nav ul{
     
 }
 
+
+
 .menuIcon{
-    width: 20px;
+    width: 39px;
+    padding: 10px;
     height: auto;
     margin: 0;
     position: relative;
-    right: -87em;
-    top: -63px;
-    transition-duration: 1000ms;
+    right: -102em;
+    top: -72.45px;
+
+    transition-duration: 500ms;
     transition-property: all;
+
+    
 }
 
+.menu :hover{
+   
+    background-color:#aec4ff;
+    background-blend-mode: screen;
+    
+    stroke-linecap: round;
+    stroke-width: 5px;
+    color: #EAF1FF;
+}
 
 nav{
     background-color: rgba(0, 85, 255, 0.15);
@@ -136,7 +151,6 @@ nav{
 }
 
 .appdevImg{
-    
-    margin: 70px 55px ;
+    margin: 120px 55px ;
 }
 
