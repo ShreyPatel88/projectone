@@ -148,7 +148,7 @@ nav{
     font-family: 'Poppins:900';
     font-weight: bolder;
     font-size: 33.5px;
-    margin: auto;
+    
 }
 
 .appdev p{
@@ -293,7 +293,6 @@ nav{
     border-radius: 100px;  
     text-align: center;
 
- 
     transition-duration: 300ms;
     transition-property: all;
   
